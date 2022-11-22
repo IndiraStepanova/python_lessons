@@ -7,7 +7,7 @@ for _ in range(n):
 max_n = max(ls)
 min_n = min(ls)
 
-for i in range(len(ls)):
+for _ in range(len(ls)):
     if min_n in ls:
         del ls[ls.index(min_n)]
         # ИЛИ ls.remove(min_n)
@@ -16,4 +16,3 @@ for i in range(len(ls)):
         # ИЛИ ls.remove(max_n)
 
 print(ls)
-
