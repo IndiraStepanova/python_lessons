@@ -8,7 +8,9 @@ print(lengths)
 new_keywords = [words for words in keywords if len(words) >= 5]  # новый список, содержащий только слова длиной не менее пяти символов (включительно).
 print(new_keywords)
 
+# список всех чисел палиндромов от 100100 до 10001000:
 palindromes = [nums for nums in range(100, 1001) if str(nums) == str(nums)[::-1]]
-palindromes1 = [nums for nums in range(100, 1001) if nums % 10 == nums // 100]
 print(palindromes)
+# ИЛИ:
+palindromes1 = [nums for nums in range(100, 1001) if nums % 10 == nums // 100]
 print(palindromes1)
