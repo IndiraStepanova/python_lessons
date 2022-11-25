@@ -14,3 +14,22 @@ print(palindromes)
 # ИЛИ:
 palindromes1 = [nums for nums in range(100, 1001) if nums % 10 == nums // 100]
 print(palindromes1)
+
+# квадраты чисел от 1 до n
+n = int(input())
+squares = [print(pow(num, 2)) for num in range(1, n + 1)]
+
+# кубы чисел
+cubes = [print(pow(int(num), 3), end=' ') for num in input().split()]
+
+# слова введенной строки в столбик:
+n = input().split()
+line_by_line = [print(word) for word in n]
+#ИЛИ:
+line_by_line = print('\n'.join(n))
+
+# вывести все цифровые символы введенной строки (н-р, "Число Pi примерно равно 3.1415")
+only_digits = [print(symbol, end='') for symbol in input() if symbol.isdigit()]
+
+# вывести квадраты четных чисел. Квадраты не оканчиваются на цифру 4
+even_squares = [print(pow(int(num), 2), end=' ') for num in input().split() if int(num) % 2 == 0 and pow(int(num), 2) % 10 != 4]
