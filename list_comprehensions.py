@@ -33,3 +33,9 @@ only_digits = [print(symbol, end='') for symbol in input() if symbol.isdigit()]
 
 # вывести квадраты четных чисел. Квадраты не оканчиваются на цифру 4
 even_squares = [print(pow(int(num), 2), end=' ') for num in input().split() if int(num) % 2 == 0 and pow(int(num), 2) % 10 != 4]
+
+# вывести список четных чисел от 2 до n
+print([i for i in range(2, int(input()) + 1, 2)])
+
+# длина самого длинного слова из строки
+print(max([len(i) for i in input().split()]))
