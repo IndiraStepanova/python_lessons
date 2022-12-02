@@ -34,20 +34,8 @@ def is_good_password(password):
 
 
 # считываем данные
-# pwd = input()
+pwd = input()
 
 # вызываем функцию
-print(is_good_password('aaAA12qqp'))
-print(is_good_password('aa13AN'))
-print(is_good_password('aaaaaaaaaaaaa'))
-print(is_good_password('AAAAAAAAAAA'))
-print(is_good_password('734638763978653'))
-print(is_good_password('AAPPqq9S'))
-print(is_good_password('AABBccssss'))
-print(is_good_password('AA23423423'))
-print(is_good_password('dsas233232232'))
-print(is_good_password('99yyPPgg'))
-print(is_good_password('99yyPPg'))
-print(is_good_password('()+_№;%:'))
-print(is_good_password('        '))
-print(is_good_password('aaaaaaA@'))
+print(is_good_password(pwd))
+
