@@ -1,4 +1,4 @@
-def is_prime_number(number):
+def is_prime_number(number: int) -> bool:
     cnt = 0
     if number == 1:
         return False
