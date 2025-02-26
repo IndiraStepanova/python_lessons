@@ -3,7 +3,6 @@
 Функция не должна ничего возвращать, требуется только изменение переданного списка.
 Функция не должна осуществлять ввод/вывод информации.'''
 
-
 def modify_list(l):
     i = 0
     while i < len(l):
@@ -14,7 +13,8 @@ def modify_list(l):
             del l[i]
 lst = [1,2,3,4,5,6]
 modify_list(lst)
-print(lst)     
+print(lst)
+
 
 '''
 def modify_list(l):

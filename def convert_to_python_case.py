@@ -8,7 +8,7 @@ def convert_to_python_case(text: str) -> str:
     for symbol in text:
         if symbol.isupper():
             text = text.replace(symbol, '_' + symbol.lower())
-    return text[1:]
+    return text
 
 
 # считываем данные
