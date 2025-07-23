@@ -1,4 +1,5 @@
-#
+#https://stepik.org/lesson/445791/step/15?unit=436052
+
 n = int(input())
 students = [input().split(': ') for _ in range(n)]
 set_correct = set()
@@ -16,8 +17,3 @@ if n > 0:
 print(f'''Верно решили {len(set_correct)} учащихся
 Из всех попыток {cnt}% верных
 ''' if cnt > 0 else 'Вы можете стать первым, кто решит эту задачу')
-
-set1 = {'a', 'b', 'c', 'd', 'h'}
-set2 = {'b', 'd', 'f', 'h'}
-
-set3 = set1 - set2 & set1

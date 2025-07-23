@@ -12,3 +12,7 @@ n = int(n)
 m = int(m)
 matrix = [[row * m + col for col in range(1, m + 1)]for row in range(n)]
 print_matrix(matrix, n, m, width=2)
+
+# 1  2  3  4  5
+# 6  7  8  9  10
+# 11 12 13 14 15

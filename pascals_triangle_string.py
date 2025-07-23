@@ -1,6 +1,6 @@
-from math import floor, ceil, trunc
-
+#https://stepik.org/lesson/416753/step/11?unit=406261
 n = int(input())
+
 
 def pascal(n):
     prev_result = 1
