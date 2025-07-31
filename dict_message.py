@@ -1,3 +1,5 @@
+#https://stepik.org/lesson/488830/step/15?unit=480066
+
 my_dict = {
     '1': '.,?!:',
     '2': 'ABC',
